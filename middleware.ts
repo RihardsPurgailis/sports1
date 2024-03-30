@@ -7,6 +7,7 @@ export default authMiddleware({
     '/api/webhook/clerk',
     '/api/webhook/stripe',
     '/api/uploadthing',
+    '/players',
     '/api/players', // Add /api/players to the publicRoutes array
   ],
   ignoredRoutes: [
